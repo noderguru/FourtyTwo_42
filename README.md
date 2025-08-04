@@ -41,7 +41,7 @@ bartowski/open‑r1_OlympicCoder‑7B‑GGUF | open‑r1_OlympicCoder‑7B‑Q4_
 
 ---
 
-## 🧩 Обзор: как устроен Fortytwo
+## 🧩 Обзор: "что под капотом"
 
 Fortytwo — это не одна ИИ-система, а целая глобальная LLM-сеть, в которой:
 
