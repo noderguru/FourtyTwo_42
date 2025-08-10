@@ -134,7 +134,9 @@ unzip fortytwo-console-app.zip
 cd fortytwo-console-app-main
 chmod +x linux.sh && ./linux.sh
 ```
-Приватник тут ```/root/Fortytwo/fortytwo-console-app-main/FortytwoNode/```  с именем ```.account_private_key```
+Приватник тут ```/root/Fortytwo/fortytwo-console-app-main/FortytwoNode/```  с именем ```.account_private_key``` сохраните его!!!
+
+## Вес моделей в Гб
 
 Модель                          | Файл (Q4_K_M)                     | Вес (≈ GB)
 -------------------------------|-----------------------------------|------------
