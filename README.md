@@ -158,7 +158,46 @@ bartowski/open‑r1_OlympicCoder‑7B‑GGUF | open‑r1_OlympicCoder‑7B‑Q4_
 
 ---
 
+## Чекер с отправкой уведомлений в консоль и телеграм или только консоль
+```bash
+git clone https://github.com/noderguru/FourtyTwo_42
+cd FourtyTwo_42
+```
+в файл wallets.txt вставляем адреса кошельков, каждый с новой строки
+```bash
+nano wallets.txt
+```
+в файле .env если выбрано LOG_MODE=CONSOLE_AND_TELEGRAM
+```bash
+nano .env
+```
+Создайте бота через @BotFather затем зайдите в него и нажмите start
 
+Получите TOKEN бота
 
+Получите ваш CHAT_ID через @userinfobot
 
+Отредактируйте переменные
+
+BOT_TOKEN=
+
+CHAT_ID=
+
+POLL_INTERVAL_SEC=7200  # интервал отправки уведомлений в секундах
+```bash
+tmux new -s fourtyTwo-cheker
+```
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+```bash
+pip install requests python-dotenv
+```
+```bash
+python3 fortytwo-cheker.py
+```
+<img width="793" height="722" alt="image" src="https://github.com/user-attachments/assets/4b78ca73-ebb8-490f-bb67-1c2d7f929629" />
+
+<img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/f82c83c6-33c6-4636-acd0-42f8b90a93db" />
 
