@@ -211,7 +211,9 @@ pip install requests python-dotenv
 ```bash
 python3 fortytwo-cheker.py
 ```
-<img width="793" height="722" alt="image" src="https://github.com/user-attachments/assets/4b78ca73-ebb8-490f-bb67-1c2d7f929629" />
+<img width="950" height="841" alt="image" src="https://github.com/user-attachments/assets/98ea0cb7-fc1e-4d79-8367-a4f4157cf2e1" />
 
-<img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/f82c83c6-33c6-4636-acd0-42f8b90a93db" />
+<img width="587" height="517" alt="image" src="https://github.com/user-attachments/assets/70bd2039-5a37-4dbb-a748-646b28769c93" />
+
+
 
